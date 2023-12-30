@@ -709,17 +709,22 @@ footer{
     }
     .row{
         display: flex;
-        flex-direction: column;
+        align-items: center;
         justify-content: center;
-        gap: 50px;
     }
     .col{
         display: flex;
         justify-content: center;
+        align-items: center;
         width: 100%;
+        margin-left: 20rem;
     }
-    .about-info, .contact-info{
+     .contact-info{
         width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20rem;
     }
     .project-container{
         justify-content: center;
